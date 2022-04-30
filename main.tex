@@ -31,6 +31,7 @@
 \usepackage{libertinust1math}
 \usepackage[T1]{fontenc}
 \usepackage{inconsolata}
+\usepackage{float}
 
 \usepackage{caption}
 \usepackage{subcaption}
@@ -126,9 +127,56 @@ Mata Kuliah: \course \hfill Tanggal: \today\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BODY DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Tujuan HandsOn}
+Tujuan dari HandsOn kali ini adalah untuk membuat mahasiswa memahami tentang Docker. Terutama
+tentang perintah-perintah dasar yang digunakan dalam menggunakan Docker dan apa fungsi perintah tersebut, dan juga tentang 
+istilah istilah yang sering di gunakan dalam penggunaan Docker.
+
 
 \section{Instalisasi}
-\subsection{Requairenment}
+Pada HandsOn kali ini saya mengunakan Docker yang dijalankan pada sistem operasi Windows
+\subsection{Requirements}
+\subsubsection*{WSL 2 / Windows Subsytem for Linux}
+WSL 2 atau Windows Subsytem for Linux adalah fitur yang di kembangkan oleh Microsoft yang menungkinkan 
+sistem operasi Windows dapat menjalankan GNU/Linux untuk. untuk menginstall WSL 2, dapat kita lakukan melalui Windows PowerShell, dengan 
+perintah berikut:
+\begin{lstlisting}[language=bash]
+	wsl --install #wsl default (ubuntu)
+
+	wsl --install [disrto name] #install wsl untuk disrto khusus.
+\end{lstlisting}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/asset/install wsl ubuntu.png}
+\caption{Install WSL 2 melalui Windows PowerShell}
+\end{figure}
+selain mengunakan PowerShell, WSL juga dapat diinstall melalui Microsoft Store. dengan cara memasukan kata kunci "wsl" pada lolom Search. kemudian
+meilih salah satu disrto yang akan di install, kemudail klik pada "get"
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/asset/wsl from microsoft store.png}
+\caption{Install WSL 2 melalui Microsoft Store}
+\end{figure}
+
+\subsection{install Docker}
+Setelah WSL 2 diinstall, kita bisa menginstall Docker. Dengan cara kita mengunduh file installasi Docker melalui officila website resminya
+\href{https://docs.docker.com/desktop/windows/install/}{Docker for Windows}. setelah selesai mengunduh, jalankan file
+unduhan yang telah kita unduh tersebut. maka akan muncul Window seperti gambar di bawah ini, kemudain klik "Ok" maka mulai mengunduh
+package-package yang diperlukan untuk menginstall Docker.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/asset/1.png}
+\end{figure}
+
+\begin{subfigure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure/asset/2.png}
+\end{subfigure}
+
+\begin{subfigure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figure/asset/3.png}
+\end{subfigure}
+
 
 
 \end{document}

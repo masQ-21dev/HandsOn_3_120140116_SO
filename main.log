@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  30 APR 2022 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  30 APR 2022 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -669,62 +669,69 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 Package: inconsolata 2019/05/17 v1.12
  `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
 \zifour@ocount=\count320
+) (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count321
+\float@exts=\toks50
+\float@box=\box69
+\@float@everytoks=\toks51
+\@floatcapt=\box70
 ) (c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count321
-\c@subtable=\count322
+\c@subfigure=\count322
+\c@subtable=\count323
 ) (c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip64
-\multirow@cntb=\count323
+\multirow@cntb=\count324
 \multirow@dima=\skip65
 \bigstrutjot=\dimen316
 ) (c:/texlive/2021/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count324
-\pfg@scount=\count325
+\pfg@pcount=\count325
+\pfg@scount=\count326
 \pfg@temp=\write5
 ) (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2021/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 ) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count326
-\lst@gtempboxa=\box69
-\lst@token=\toks50
-\lst@length=\count327
+\lst@mode=\count327
+\lst@gtempboxa=\box71
+\lst@token=\toks52
+\lst@length=\count328
 \lst@currlwidth=\dimen317
-\lst@column=\count328
-\lst@pos=\count329
+\lst@column=\count329
+\lst@pos=\count330
 \lst@lostspace=\dimen318
 \lst@width=\dimen319
-\lst@newlines=\count330
-\lst@lineno=\count331
+\lst@newlines=\count331
+\lst@lineno=\count332
 \lst@maxwidth=\dimen320
  (c:/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count332
-\lst@skipnumbers=\count333
-\lst@framebox=\box70
+\c@lstnumber=\count333
+\lst@skipnumbers=\count334
+\lst@framebox=\box72
 ) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-\c@thm=\count334
-\c@quest=\count335
+\c@thm=\count335
+\c@quest=\count336
  (c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty (c:/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-02-24 L3 programming layer (loader) 
  (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count336
-\l__pdf_internal_box=\box71
+\l__color_backend_stack_int=\count337
+\l__pdf_internal_box=\box73
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count337
-\l__lipsum_a_int=\count338
-\l__lipsum_b_int=\count339
+\g__lipsum_par_int=\count338
+\l__lipsum_a_int=\count339
+\l__lipsum_b_int=\count340
  (c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/texlive/2021/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
  (c:/texlive/2021/texmf-dist/tex/latex/fmtcount/fmtcount.sty
@@ -735,85 +742,85 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 Package: fcprefix 2012/09/28
  (c:/texlive/2021/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count340
+\fc@digit@counter=\count341
 ))
-\c@padzeroesN=\count341
-\fc@tmpcatcode=\count342
-\@DT@modctr=\count343
-\@ordinalctr=\count344
-\@orgargctr=\count345
-\@strctr=\count346
-\@tmpstrctr=\count347
-\@DT@loopN=\count348
-\@DT@X=\count349
+\c@padzeroesN=\count342
+\fc@tmpcatcode=\count343
+\@DT@modctr=\count344
+\@ordinalctr=\count345
+\@orgargctr=\count346
+\@strctr=\count347
+\@tmpstrctr=\count348
+\@DT@loopN=\count349
+\@DT@X=\count350
 ) (c:/texlive/2021/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count350
-\@month=\count351
-\@year=\count352
-\c@HOUR=\count353
-\c@HOURXII=\count354
-\c@MINUTE=\count355
-\c@TOHOUR=\count356
-\c@TOMINUTE=\count357
-\c@SECOND=\count358
-\currenthour=\count359
-\currentminute=\count360
-\currentsecond=\count361
+\@day=\count351
+\@month=\count352
+\@year=\count353
+\c@HOUR=\count354
+\c@HOURXII=\count355
+\c@MINUTE=\count356
+\c@TOHOUR=\count357
+\c@TOMINUTE=\count358
+\c@SECOND=\count359
+\currenthour=\count360
+\currentminute=\count361
+\currentsecond=\count362
 Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
-\@dtctr=\count362
-\dayofyear=\count363
-\dayofweek=\count364
+\@dtctr=\count363
+\dayofyear=\count364
+\dayofweek=\count365
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks51
-\dt@b=\toks52
+\dt@a=\toks53
+\dt@b=\toks54
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for LS1/libertinust1math/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for LS1+libertinust1math on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for LS1/libertinust1math/m/n on input line 109.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1math on input line 109.
  (c:/texlive/2021/texmf-dist/tex/latex/libertinust1math/ls1libertinust1math.fd
 File: ls1libertinust1math.fd 2016/03/23 Fontinst v1.933 font definitions for LS1/libertinust1math.
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for LS2/libertinust1mathsym/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathsym on input line 108.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for LS2/libertinust1mathsym/m/n on input line 109.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathsym on input line 109.
  (c:/texlive/2021/texmf-dist/tex/latex/libertinust1math/ls2libertinust1mathsym.fd
 File: ls2libertinust1mathsym.fd 2015/04/17 v1.1.2-latex LibertinusT1Mathsym LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    ... okay on input line 109.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count365
+\scratchcounter=\count366
 \scratchdimen=\dimen321
-\scratchbox=\box72
-\nofMPsegments=\count366
-\nofMParguments=\count367
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count368
+\scratchbox=\box74
+\nofMPsegments=\count367
+\nofMParguments=\count368
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count369
 \MPscratchDim=\dimen322
-\MPnumerator=\count369
-\makeMPintoPDFobject=\count370
-\everyMPtoPDFconversion=\toks54
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
+\everyMPtoPDFconversion=\toks56
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (c:/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
@@ -827,60 +834,61 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 6.0pt on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 6.0pt on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 108.
-LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex on input line 109.
  (c:/texlive/2021/texmf-dist/tex/latex/libertinust1math/ls2libertinust1mathex.fd
 File: ls2libertinust1mathex.fd 2016/03/15 v1.0.0-latex LibertinusMath extensions LS2 font definitions
 )
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 6.0pt on input line 108.
-LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb on input line 109.
  (c:/texlive/2021/texmf-dist/tex/latex/libertinust1math/ls1libertinust1mathbb.fd
 File: ls1libertinust1mathbb.fd 2016/08/22 latex LibertinusT1Mathbb LS1 font definitions
 )
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 6.0pt on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 6.0pt on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 10.95pt on input line 108.
+(Font)              scaled to size 10.95pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 6.0pt on input line 108.
-Package xypdf Info: Line width: 0.43799pt on input line 108.
+(Font)              scaled to size 6.0pt on input line 109.
+Package xypdf Info: Line width: 0.43799pt on input line 109.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -916,7 +924,7 @@ Package xypdf Info: Line width: 0.43799pt on input line 108.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 108.
+Package hyperref Info: Link coloring ON on input line 109.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -924,71 +932,77 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count371
+\c@section@level=\count372
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-\c@mv@tabular=\count372
-\c@mv@boldtabular=\count373
+\c@mv@tabular=\count373
+\c@mv@boldtabular=\count374
  (c:/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-\c@lstlisting=\count374
+\c@lstlisting=\count375
  (c:/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-<Figure/ifitera-header.png, id=19, 1747.52875pt x 339.2675pt>
+<Figure/ifitera-header.png, id=23, 1747.52875pt x 339.2675pt>
 File: Figure/ifitera-header.png Graphic file (type png)
 <use Figure/ifitera-header.png>
-Package pdftex.def Info: Figure/ifitera-header.png  used on input line 111.
+Package pdftex.def Info: Figure/ifitera-header.png  used on input line 112.
 (pdftex.def)             Requested size: 262.118pt x 50.88792pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 117.
+(Font)              scaled to size 12.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 119.
+(Font)              scaled to size 12.0pt on input line 120.
 
-Overfull \hbox (2.00038pt too wide) in paragraph at lines 114--124
+Overfull \hbox (2.00038pt too wide) in paragraph at lines 115--125
 []  
  []
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 128.
+(Font)              scaled to size 14.4pt on input line 129.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 128.
+(Font)              scaled to size 14.4pt on input line 129.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 138.
+(c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Overfull \hbox (3.48315pt too wide) in paragraph at lines 139--142
+\T1/LinuxLibertineT-TLF/m/n/10.95 WSL 2 atau Win-dows Sub-sytem for Linux adalah fi-tur yang di kem-bangkan oleh Mi-crosoft yang me-nungkinkan
+ []
 
-Package caption Warning: Unused \captionsetup[table] on input line 9.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[figure] on input line 10.
-See the caption package documentation for explanation.
-
-[1
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 142.
+(c:/texlive/2021/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 142.
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 142.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 143.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 143.
+<Figure/asset/install wsl ubuntu.png, id=25, 829.59938pt x 520.94624pt>
+File: Figure/asset/install wsl ubuntu.png Graphic file (type png)
+<use Figure/asset/install wsl ubuntu.png>
+Package pdftex.def Info: Figure/asset/install wsl ubuntu.png  used on input line 149.
+(pdftex.def)             Requested size: 338.58632pt x 212.61162pt.
+<Figure/asset/wsl from microsoft store.png, id=26, 1445.4pt x 767.86874pt>
+File: Figure/asset/wsl from microsoft store.png Graphic file (type png)
+<use Figure/asset/wsl from microsoft store.png>
+Package pdftex.def Info: Figure/asset/wsl from microsoft store.png  used on input line 156.
+(pdftex.def)             Requested size: 338.58632pt x 179.87506pt.
+ [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figure/ifitera-header.png>] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EB311A4B96B6D0EABEC6C7B9FF9C8755;336.
- ) 
-Here is how much of TeX's memory you used:
- 29959 strings out of 478276
- 533444 string characters out of 5850490
- 909886 words of memory out of 5000000
- 47621 multiletter control sequences out of 15000+600000
- 506985 words of font info for 67 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 84i,5n,89p,3287b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on main.pdf (1 page, 289134 bytes).
-PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/u
