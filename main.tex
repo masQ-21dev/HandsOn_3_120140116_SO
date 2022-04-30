@@ -304,10 +304,43 @@ pada level Host OS untuk di gunakan secara bersama-sama (Shere) oleh container.
 
 
 \subsection*{apa fungsi perintah "docker run"}
+perintah "docker run" berfungsi intuk menjalankan sebuah Container. ketika "docker run" di ketikan 
+oleh user maka docker akan mencari image yang sesuai dengan Container tersebut
+secara lokal kemudaian menjalankannya. jika tidak terdapat image yang sesuai dengan Container tersebut di local,
+docker akan mencarinya di global dan akan mengunduh(pulling) image tersebut ke dalam local, dan kemudaian menjalankan
+Container tersebut.\\
+berikut Command yang dapat di gunakan untuk menjalankan sebuah Container
+\begin{lstlisting}[language = bash]
+	docker run [image] #hanya menjalankan Containernya
+
+	docker run [image] [Command] #menjalankan Container sekaligus Commandnya (contoh Command = echo)
+
+	docker run [option] [image] [Command] #menjalankan image beserta option yang terdapat pada docker(Contoh option = -i)
+\end{lstlisting}
+untuk dapat mencari option yang sesuai dengan kebutuhan kita dapat kita ketikan "docker run --help".
+di dalamnya terdapat banyak macam-macam option yang di sediakan oleh Docker
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/help run.png}
+	\caption{help untuk docker run}
+\end{figure}
+
+\newpage
+
 
 \subsection*{Apa itu Conatainer}
 
 \subsection*{apa fungsi perintah "docker run -it"}
+sama halnya dengan perintah "docker run" biasa, perintah "docker run -it" juga berfungsi untuk menjalankan
+sebauah Container baru, tetapi terdapat penambahan pada bagian [Command]. Command "-it" meemungkinkan
+doker dapat mengakses Command line yang ada pada Container tersebut. sebenarnya comannd "-it" itu terdiri 
+dari 2 buah commadn yaitu "-i" untuk melakukan input dan "-t" untuk masuk kedalam Command line dari Container tersebut.
+seperti gambar berikut.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/docker_bin_sh.png}
+\end{figure}
+
 
 \subsection*{Apa itu images}
 
