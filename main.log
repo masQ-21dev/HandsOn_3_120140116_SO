@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  30 APR 2022 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  1 MAY 2022 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -950,7 +950,7 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
  (c:/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-<Figure/ifitera-header.png, id=23, 1747.52875pt x 339.2675pt>
+<Figure/ifitera-header.png, id=39, 1747.52875pt x 339.2675pt>
 File: Figure/ifitera-header.png Graphic file (type png)
 <use Figure/ifitera-header.png>
 Package pdftex.def Info: Figure/ifitera-header.png  used on input line 112.
@@ -991,12 +991,12 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 143.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 143.
-<Figure/asset/install wsl ubuntu.png, id=25, 829.59938pt x 520.94624pt>
+<Figure/asset/install wsl ubuntu.png, id=41, 829.59938pt x 520.94624pt>
 File: Figure/asset/install wsl ubuntu.png Graphic file (type png)
 <use Figure/asset/install wsl ubuntu.png>
 Package pdftex.def Info: Figure/asset/install wsl ubuntu.png  used on input line 149.
 (pdftex.def)             Requested size: 338.58632pt x 212.61162pt.
-<Figure/asset/wsl from microsoft store.png, id=26, 1445.4pt x 767.86874pt>
+<Figure/asset/wsl from microsoft store.png, id=42, 1445.4pt x 767.86874pt>
 File: Figure/asset/wsl from microsoft store.png Graphic file (type png)
 <use Figure/asset/wsl from microsoft store.png>
 Package pdftex.def Info: Figure/asset/wsl from microsoft store.png  used on input line 156.
@@ -1005,4 +1005,113 @@ Package pdftex.def Info: Figure/asset/wsl from microsoft store.png  used on inpu
 Non-PDF special ignored!
 <special> header=psfrag.pro
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/u
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figure/ifitera-header.png> <./Figure/asset/install wsl ubuntu.png>]
+<Figure/asset/1.png, id=60, 560.0925pt x 356.83313pt>
+File: Figure/asset/1.png Graphic file (type png)
+<use Figure/asset/1.png>
+Package pdftex.def Info: Figure/asset/1.png  used on input line 167.
+(pdftex.def)             Requested size: 338.58632pt x 215.71863pt.
+<Figure/asset/2.png, id=61, 560.8453pt x 361.35pt>
+File: Figure/asset/2.png Graphic file (type png)
+<use Figure/asset/2.png>
+Package pdftex.def Info: Figure/asset/2.png  used on input line 174.
+(pdftex.def)             Requested size: 241.84843pt x 155.81857pt.
+<Figure/asset/3.png, id=62, 559.33969pt x 358.33875pt>
+File: Figure/asset/3.png Graphic file (type png)
+<use Figure/asset/3.png>
+Package pdftex.def Info: Figure/asset/3.png  used on input line 179.
+(pdftex.def)             Requested size: 241.84843pt x 154.9411pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./Figure/asset/wsl from microsoft store.png> <./Figure/asset/1.png>]
+<Figure/asset/4.png, id=71, 601.4972pt x 447.92343pt>
+File: Figure/asset/4.png Graphic file (type png)
+<use Figure/asset/4.png>
+Package pdftex.def Info: Figure/asset/4.png  used on input line 187.
+(pdftex.def)             Requested size: 241.84843pt x 180.10255pt.
+LaTeX Font Info:    Trying to load font information for TS1+fvm on input line 202.
+ (c:/texlive/2021/texmf-dist/tex/latex/bera/ts1fvm.fd
+File: ts1fvm.fd 2004/09/07 scalable font definitions for TS1/fvm.
+)
+LaTeX Font Info:    Font shape `TS1/fvm/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 202.
+ [3 <./Figure/asset/2.png> <./Figure/asset/3.png> <./Figure/asset/4.png>]
+<Figure/asset/docker_run_helloworld.png, id=83, 822.82407pt x 453.19313pt>
+File: Figure/asset/docker_run_helloworld.png Graphic file (type png)
+<use Figure/asset/docker_run_helloworld.png>
+Package pdftex.def Info: Figure/asset/docker_run_helloworld.png  used on input line 214.
+(pdftex.def)             Requested size: 338.58632pt x 186.48116pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 219.
+<Figure/asset/pull_alpine.png, id=84, 841.64438pt x 464.4853pt>
+File: Figure/asset/pull_alpine.png Graphic file (type png)
+<use Figure/asset/pull_alpine.png>
+Package pdftex.def Info: Figure/asset/pull_alpine.png  used on input line 226.
+(pdftex.def)             Requested size: 338.58632pt x 186.86104pt.
+<Figure/asset/run apline ls -l.png, id=85, 832.61063pt x 467.49657pt>
+File: Figure/asset/run apline ls -l.png Graphic file (type png)
+<use Figure/asset/run apline ls -l.png>
+Package pdftex.def Info: Figure/asset/run apline ls -l.png  used on input line 237.
+(pdftex.def)             Requested size: 338.58632pt x 190.11261pt.
+ [4 <./Figure/asset/docker_run_helloworld.png> <./Figure/asset/pull_alpine.png>]
+<Figure/asset/run apline echo.png, id=109, 841.64438pt x 475.7775pt>
+File: Figure/asset/run apline echo.png Graphic file (type png)
+<use Figure/asset/run apline echo.png>
+Package pdftex.def Info: Figure/asset/run apline echo.png  used on input line 248.
+(pdftex.def)             Requested size: 338.58632pt x 191.40384pt.
+ [5 <./Figure/asset/run apline ls -l.png> <./Figure/asset/run apline echo.png>]
+<Figure/asset/docker_bin_sh.png, id=120, 840.89156pt x 505.13719pt>
+File: Figure/asset/docker_bin_sh.png Graphic file (type png)
+<use Figure/asset/docker_bin_sh.png>
+Package pdftex.def Info: Figure/asset/docker_bin_sh.png  used on input line 264.
+(pdftex.def)             Requested size: 338.58632pt x 203.39244pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+
+ []
+
+<Figure/asset/docker ps.png, id=121, 953.81343pt x 310.91156pt>
+File: Figure/asset/docker ps.png Graphic file (type png)
+<use Figure/asset/docker ps.png>
+Package pdftex.def Info: Figure/asset/docker ps.png  used on input line 277.
+(pdftex.def)             Requested size: 338.58632pt x 110.36725pt.
+<Figure/asset/docker_images.png, id=122, 840.13875pt x 355.3275pt>
+File: Figure/asset/docker_images.png Graphic file (type png)
+<use Figure/asset/docker_images.png>
+Package pdftex.def Info: Figure/asset/docker_images.png  used on input line 287.
+(pdftex.def)             Requested size: 338.58632pt x 143.202pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./Figure/asset/docker_bin_sh.png> <./Figure/asset/docker ps.png>]
+
+Package caption Warning: Unused \captionsetup[table] on input line 9.
+See the caption package documentation for explanation.
+
+[7 <./Figure/asset/docker_images.png>] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6DA6BAEA7C604B497F27AC7719530B8B;960.
+ ) 
+Here is how much of TeX's memory you used:
+ 30678 strings out of 478276
+ 543403 string characters out of 5850490
+ 1154409 words of memory out of 5000000
+ 48242 multiletter control sequences out of 15000+600000
+ 529415 words of font info for 79 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,12n,99p,3287b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb>
+Output written on main.pdf (7 pages, 3672417 bytes).
+PDF statistics:
+ 192 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+

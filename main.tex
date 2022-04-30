@@ -163,19 +163,165 @@ Setelah WSL 2 diinstall, kita bisa menginstall Docker. Dengan cara kita mengundu
 unduhan yang telah kita unduh tersebut. maka akan muncul Window seperti gambar di bawah ini, kemudain klik "Ok" maka mulai mengunduh
 package-package yang diperlukan untuk menginstall Docker.
 \begin{figure}[h]
-\centering
-\includegraphics[width=0.7\textwidth]{Figure/asset/1.png}
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figure/asset/1.png}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.5\textwidth}
+		\centering
+		\def\svgwidth{\columnwidth}
+		\includegraphics[width=1\textwidth]{Figure/asset/2.png}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.5\textwidth}
+		\centering
+		\def\svgwidth{\columnwidth}
+		\includegraphics[width=1\textwidth]{Figure/asset/3.png}
+	\end{subfigure}
+\end{figure}
+\newpage
+setelah docker terinstall, jalankan Docker tersebut.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.5\textwidth]{Figure/asset/4.png}
 \end{figure}
 
-\begin{subfigure}[t]
-\centering
-\includegraphics[width=0.7\textwidth]{Figure/asset/2.png}
-\end{subfigure}
+kemudian klik "Accept". dan Docker siap di gunakan.
 
-\begin{subfigure}[h]
+\section{percobaan}
+
+\subsection{Hello-World}
+setelah Docker berhasil diInstall, maka kita dapat menjalankan perintah perintah Docker tersebut pada PowerShell atau Command Prompt.
+Untuk mengeceknya dapat kita ketikan perintah berikut pada PowerShell
+\begin{lstlisting}[language=bash]
+	docker run Hello-World
+\end{lstlisting}
+maka outpunnya akan keluar sebagai berikut
+\begin{lstlisting}[language = bash]
+	Unabel to find image 'hello-world:latest' locally
+	latest: Pulling from library/hello-world
+	2db29710123e: Pull complete
+	Digest: sha256:10d7d58d5ebd2a652f0d93fdd86da8f265f5318c6a73cc5b6a9798ff6d2b2067
+	Status: Downloaded newer image for hello-world:latest
+
+	Hello from Docker!
+	This message shows that your installation appears to be working correctly
+	....
+\end{lstlisting}
+\begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Figure/asset/3.png}
-\end{subfigure}
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/docker_run_helloworld.png}
+	\caption{Docker run hello-world}
+\end{figure}
+
+\subsection{Alpine linux}
+selanjunya kita akan menjalankan image pertama yaitu \textit{alpine linux}.
+Untuk menjalankan image tersebut kita perlu mengunduh{pulling} dengan cara mengetikan perintah berikut
+\begin{lstlisting}[language = bash]
+	Docker Pull Alpine
+\end{lstlisting}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/pull_alpine.png}
+	\caption{Pulling Alpine Container}
+\end{figure}
+
+selanjutnya kita akan mencoba menjalankan salah Container dengan mengetikan perintah berikut
+\begin{lstlisting}[language = bash]
+	Docker run alpine ls -l
+\end{lstlisting}
+maka outpunnya sebagi berikut
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/run apline ls -l.png}
+	\caption{Docker run alpine ls -l}
+\end{figure}
+
+setelah itu kita akan mencoba mengetika "hello from alpine" melalui Container tersebut dengan perintah sebagai berikut
+\begin{lstlisting}[language = bash]
+	Docker run alpine echo "hello from alpine"
+\end{lstlisting} 
+maka outpunnya sebagai berikut.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/run apline echo.png}
+	\caption{Docker run alpine echo}
+\end{figure}
+
+\newpage
+selanjutnya kita akan mencoba masuk kedalam bash atau Command line dari Container alpine tersebut.
+Untuk masuk kedalam kontaner Alpine kita tidak bisa hanya menjalankan Container tersebut dan memberi path untuk bashnya saja.
+Tetapi kita juga harus manambah option ketika menjalankan Container tersebut. perintah yang dapat kita gunakan sebagai berikut.
+\begin{lstlisting}[language = bash]
+	docker run alpine /bin/sh #tidak bisa masuk kedalam bash
+
+	docker run alpine -it /bin/sh 
+\end{lstlisting}
+seperti tangkap layar berikut.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/docker_bin_sh.png}
+	\caption{masuk bash alpine}
+\end{figure}
+
+Option -it berguna untuk masuk dan memberikan perintah pada bash Container tersebut. -i hanya untuk memberikan perintah saja, tetapi tidak akan masuk kedalam bash Container tersebut.
+sedangkan -t adalah option untuk masuk kedalam bash Container saja namun tidak dapat memberikan perintah ke dalamnya.\\\\
+
+selanjutnya kita akan mengeceknya Container apa saja yang sudah pernah kita jalankan dengan cara mengetikan perintah berikut.
+\begin{lstlisting}[language = bash]
+	docker ps -a
+\end{lstlisting}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/docker ps.png}
+	\caption{cek container yang pernah di jalankan}
+\end{figure}
+
+selain itu, kita juga dapat mengecek image apa saja ynag pernah kita unduh (pull). dengan mengetikan perintah berikut.
+\begin{lstlisting}[language = bash]
+	docker images
+\end{lstlisting}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/docker_images.png}
+	\caption{cek images}
+\end{figure}
+
+\section{Jawaban pertanyaan HandsOn}
+\subsection*{Apa itu Docker}
+Docker merupakan salah satu bentuk virtualisasi yang menungkinkan devloper untuk membuat, 
+mengemas, dan menjalankan aplikasi dalam sebuah Container. Docker sebenarnya mirip dengan 
+Vitrual Mecine (VM), karena kedaunya sama sama memerlukan \textit{resouce isolation} yang artinya
+sama sama mengisolasi sumber daya untuk dapat di jalankan. namun, Docker dan VM memeiliki
+perbedaan yang moncolok, yaitu pada resouce yang di perlukan. sebagai ilustrasi, pada saat 
+menjalankan sebuah aplikasi dengan menggunakan Virtual Mecine, maka kita perlu menyiapkan 
+sistem opreasi yang lengkap yang mana akan membutukan resoure yang cukup besar. berbeda dengan
+menggunakan Docker, kita tidak perlu menyiapkan seluruh sistem operasi yang lengkap, kita hanya
+perlu menyiapkan hal hal yang kita perlukan dalam aplikasi tersebut, sehingga resouce yang kita 
+perlukan juga akan lebih sedikit. Hal ini dapat terjadi karena Docker memanfaatkan Kernel Linux
+pada level Host OS untuk di gunakan secara bersama-sama (Shere) oleh container.
+
+
+\subsection*{apa fungsi perintah "docker run"}
+
+\subsection*{Apa itu Conatainer}
+
+\subsection*{apa fungsi perintah "docker run -it"}
+
+\subsection*{Apa itu images}
+
+\subsection*{Apa itu deamon}
+
+
+
+
+
+
+
+
+
+
 
 
 
