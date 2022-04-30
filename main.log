@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  24 APR 2022 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  30 APR 2022 10:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -942,7 +942,7 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
  (c:/texlive/2021/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
-<Figure/ifitera-header.png, id=11, 1747.52875pt x 339.2675pt>
+<Figure/ifitera-header.png, id=19, 1747.52875pt x 339.2675pt>
 File: Figure/ifitera-header.png Graphic file (type png)
 <use Figure/ifitera-header.png>
 Package pdftex.def Info: Figure/ifitera-header.png  used on input line 111.
@@ -974,21 +974,21 @@ Non-PDF special ignored!
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figure/ifitera-header.png>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B4BF0C47AC310C9D110DB3FB7EC69372;116.
+(rerunfilecheck)             Checksum: EB311A4B96B6D0EABEC6C7B9FF9C8755;336.
  ) 
 Here is how much of TeX's memory you used:
- 29955 strings out of 478276
- 533394 string characters out of 5850490
- 908883 words of memory out of 5000000
- 47619 multiletter control sequences out of 15000+600000
+ 29959 strings out of 478276
+ 533444 string characters out of 5850490
+ 909886 words of memory out of 5000000
+ 47621 multiletter control sequences out of 15000+600000
  506985 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,5n,89p,3287b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb>
-Output written on main.pdf (1 page, 287802 bytes).
+Output written on main.pdf (1 page, 289134 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 44 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
+ 42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
