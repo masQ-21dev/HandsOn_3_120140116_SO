@@ -1,5 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1651359797 "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" "main.pdf" "main" 1651359803
+["bibtex main"] 1651378896 "main.aux" "main.bbl" "main" 1651378903
+  "Referensi.bib" 1651378886 468 101d08467ec6d06f774c639e7908fb22 ""
+  "c:/texlive/2021/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1646537140 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
+  "main.aux" 1651378903 4265 0b114cde784bfa71311d8b8a884cade5 "pdflatex"
+  (generated)
+  "main.bbl"
+  "main.blg"
+["pdflatex"] 1651378896 "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" "main.pdf" "main" 1651378903
   "Figure/asset/1.png" 1651288908 13451 3e293234e36938005c04eeec793f1dda ""
   "Figure/asset/2.png" 1651288908 38406 7e29cc4c179ef5f48be9ded95e9eaad6 ""
   "Figure/asset/3.png" 1651288908 16883 7cf3afdd8b80aa8cf5be1ad925e51770 ""
@@ -10,12 +17,13 @@
   "Figure/asset/docker_run_helloworld.png" 1651288908 467744 b0de655ced13d27516b9f805507a1aa6 ""
   "Figure/asset/help run.png" 1651288908 705057 da2fdf0ddf5e9b56e7c1f2eea01d33b3 ""
   "Figure/asset/install wsl ubuntu.png" 1651288908 436979 1fb7af9b6de5e5ec3c7923e0b9275e35 ""
+  "Figure/asset/ps-a.png" 1651374232 556090 c8e9256e9d7249d85fdd55937fc7a7bf ""
   "Figure/asset/pull_alpine.png" 1651288908 512890 3b5d32eb6adcf2381985a551002d7cd3 ""
   "Figure/asset/run apline echo.png" 1651288908 511658 5e89ae29264a798f17865003224f8616 ""
   "Figure/asset/run apline ls -l.png" 1651288908 549143 781a8238fa0bfe88a5e44d88dc3259d9 ""
   "Figure/asset/wsl from microsoft store.png" 1651292692 386999 4d17191cb3242759e7229c76a4f45a2e ""
   "Figure/ifitera-header.png" 1651288908 105262 7fe1bcaf31c1fe943ce3e952b4c15ef1 ""
-  "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" 1651359796 13637 9831bdabff94e980717e251858a9bea0 ""
+  "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" 1651378776 15760 251cd72ec3ec52f97742ade24b598ea4 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1646536211 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1646537584 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1646537584 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
@@ -246,9 +254,10 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646547303 4448422 1ce8db434ffa4259b75148f2b12051ea ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646547474 2797720 b3cbb3255d5e44e8f82ce01611bc050d ""
   "c:/texlive/2021/texmf.cnf" 1646547270 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1651359802 3131 fb5646a852283f52be987c0b9a42198d "pdflatex"
-  "main.out" 1651359802 960 6da6baea7c604b497f27ac7719530b8b "pdflatex"
-  "main.tex" 1651359796 13637 9831bdabff94e980717e251858a9bea0 ""
+  "main.aux" 1651378903 4265 0b114cde784bfa71311d8b8a884cade5 "pdflatex"
+  "main.bbl" 1651378896 877 628a2a8c68e066122d1514411e0b8455 "bibtex main"
+  "main.out" 1651378903 2740 b6559e76adb692444b3876f861529927 "pdflatex"
+  "main.tex" 1651378776 15760 251cd72ec3ec52f97742ade24b598ea4 ""
   (generated)
   "main.aux"
   "main.log"

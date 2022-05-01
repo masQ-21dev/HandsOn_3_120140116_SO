@@ -289,7 +289,7 @@ selain itu, kita juga dapat mengecek image apa saja ynag pernah kita unduh (pull
 \end{figure}
 
 \section{Jawaban pertanyaan HandsOn}
-\subsection*{Apa itu Docker}
+\subsection{Apa itu Docker}
 Docker merupakan salah satu bentuk virtualisasi yang menungkinkan devloper untuk membuat, 
 mengemas, dan menjalankan aplikasi dalam sebuah Container. Docker sebenarnya mirip dengan 
 Vitrual Mecine (VM), karena kedaunya sama sama memerlukan \textit{resouce isolation} yang artinya
@@ -303,7 +303,7 @@ perlukan juga akan lebih sedikit. Hal ini dapat terjadi karena Docker memanfaatk
 pada level Host OS untuk di gunakan secara bersama-sama (Shere) oleh container.
 
 
-\subsection*{apa fungsi perintah "docker run"}
+\subsection{Apa fungsi dari perintah perintah "docker run"}
 perintah "docker run" berfungsi intuk menjalankan sebuah Container. ketika "docker run" di ketikan 
 oleh user maka docker akan mencari image yang sesuai dengan Container tersebut
 secara lokal kemudaian menjalankannya. jika tidak terdapat image yang sesuai dengan Container tersebut di local,
@@ -328,9 +328,28 @@ di dalamnya terdapat banyak macam-macam option yang di sediakan oleh Docker
 \newpage
 
 
-\subsection*{Apa itu Conatainer}
+\subsection{Apa yang dimaksud dengan Conatainer}
+Container dapat dikatakan sebagai sebuah folder yang terisolasi. Container ini digunakan untuk 
+membungkus images yang berupa aplikasi atau tools yang ingin di isolasi. Karena siafat 
+dari Container ini terisolasi, maka perubahan apapun yang dilakukan didalamnya tidak akan
+mempengarudhi os yang ada di luar Container tersebut. selain itu aplikasi atau tools yang 
+ada dalam tersebut hanya dapat berkomunikasi dan berinteraksi dengan aplikasi atau tools ynag
+sama-sama ada dalam container yang sama. meskipun terdapat aplikasi tertentu yang dapat 
+diakses dari luar container dengan cara  mengekpose port-nya keluar Container.
 
-\subsection*{apa fungsi perintah "docker run -it"}
+\subsection{Apa fungsi dari perintah "docker ps -a"}
+perintah ini berfungsi untuk menampilkan seluruh Container yang pernah di jalankan. 
+data tersebut mencangkup Container id, image, command, created, Status, ports, dan juga nama dari container.
+\begin{lstlisting}[language = bash]
+	docker ps -a
+\end{lstlisting}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{Figure/asset/ps-a.png}
+\end{figure}
+
+
+\subsection{Apa fungsi dari perintah "docker run -it"}
 sama halnya dengan perintah "docker run" biasa, perintah "docker run -it" juga berfungsi untuk menjalankan
 sebauah Container baru, tetapi terdapat penambahan pada bagian [Command]. Command "-it" meemungkinkan
 doker dapat mengakses Command line yang ada pada Container tersebut. sebenarnya comannd "-it" itu terdiri 
@@ -342,15 +361,27 @@ seperti gambar berikut.
 \end{figure}
 
 
-\subsection*{Apa itu images}
+\subsection{Apa yang dimaskud dengan images}
+images dapat dikatakan sebagai file image os, yaang dimana bersifat executeble dan di lengkapai 
+oleh Kernel dari sistem operasinya. images ini nantinya akan di gunakan untuk membuat Container.
+dari 1 buah images dapat membuat banyak Container.
 
-\subsection*{Apa itu deamon}
+\subsection{Apa yang dimaksud dengan deamon}
+Docker daemon adalah sebuah service yang dijalankan di dalam host OS. Docker daemon ini
+berfunsi untuk membangun, mendistribusikan, dan menjalankan container docker.
+kita tidak dapat secara lengsung mengakses docker daemon, akan tetapi untuk menggunakan docker
+daemon dapat menggunakan docker client sebagai perantara atau CLI.
 
 
+\section{Kesimpulan}
+Dari HandsOn 3 kali ini dapat ditarik Kesimpulan bahwa Docker adalah sebuah sofware yang 
+dapat memebantu dalam melakukan devloping, shipping, dan running aplikasi tangkap melalui
+infrasturut yang yang terpisah dari OS utama, sehingga resouce yang diperlukan 
+dalam proses pengembangan aplikasi tersebut akan lebih sedikit.
 
-
-
-
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{Referensi}
 
 
 

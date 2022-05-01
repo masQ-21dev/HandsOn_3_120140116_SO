@@ -1408,10 +1408,19 @@ INPUT ./Figure/asset/help run.png
 INPUT Figure/asset/help run.png
 INPUT ./Figure/asset/help run.png
 INPUT ./Figure/asset/help run.png
+INPUT ./Figure/asset/ps-a.png
+INPUT ./Figure/asset/ps-a.png
+INPUT Figure/asset/ps-a.png
+INPUT ./Figure/asset/ps-a.png
+INPUT ./Figure/asset/ps-a.png
 INPUT ./Figure/asset/docker_bin_sh.png
 INPUT ./Figure/asset/docker_bin_sh.png
 INPUT Figure/asset/docker_bin_sh.png
 INPUT ./Figure/asset/docker_bin_sh.png
+INPUT ./main.bbl
+INPUT main.bbl
+INPUT ./main.bbl
+INPUT main.bbl
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
