@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  1 MAY 2022 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.6)  1 MAY 2022 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: Figure/asset/docker_images.png  used on input line 287.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./Figure/asset/docker_bin_sh.png> <./Figure/asset/docker ps.png>]
-<Figure/asset/help run.png, id=172, 965.85844pt x 497.60907pt>
+<Figure/asset/help run.png, id=173, 965.85844pt x 497.60907pt>
 File: Figure/asset/help run.png Graphic file (type png)
 <use Figure/asset/help run.png>
 Package pdftex.def Info: Figure/asset/help run.png  used on input line 324.
@@ -1101,7 +1101,7 @@ Package pdftex.def Info: Figure/asset/help run.png  used on input line 324.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./Figure/asset/docker_images.png>]
-<Figure/asset/ps-a.png, id=186, 981.6675pt x 450.18187pt>
+<Figure/asset/ps-a.png, id=188, 981.6675pt x 450.18187pt>
 File: Figure/asset/ps-a.png Graphic file (type png)
 <use Figure/asset/ps-a.png>
 Package pdftex.def Info: Figure/asset/ps-a.png  used on input line 348.
@@ -1114,11 +1114,7 @@ Package pdftex.def Info: Figure/asset/docker_bin_sh.png  used on input line 360.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8 <./Figure/asset/help run.png> <./Figure/asset/ps-a.png>] [9] (./main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 24.
-
-)
+[8 <./Figure/asset/help run.png> <./Figure/asset/ps-a.png>] [9] (./main.bbl)
 
 Package caption Warning: Unused \captionsetup[table] on input line 9.
 See the caption package documentation for explanation.
@@ -1128,18 +1124,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B6559E76ADB692444B3876F861529927;2740.
  ) 
 Here is how much of TeX's memory you used:
- 30730 strings out of 478276
- 544318 string characters out of 5850490
- 1154416 words of memory out of 5000000
- 48272 multiletter control sequences out of 15000+600000
+ 30735 strings out of 478276
+ 544396 string characters out of 5850490
+ 1154482 words of memory out of 5000000
+ 48275 multiletter control sequences out of 15000+600000
  529415 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,99p,3287b,1964s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb>
-Output written on main.pdf (10 pages, 4487477 bytes).
+Output written on main.pdf (10 pages, 4497535 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

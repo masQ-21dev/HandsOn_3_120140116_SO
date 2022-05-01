@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1651378896 "main.aux" "main.bbl" "main" 1651378903
-  "Referensi.bib" 1651378886 468 101d08467ec6d06f774c639e7908fb22 ""
+["bibtex main"] 1651379496 "main.aux" "main.bbl" "main" 1651379505
+  "Referensi.bib" 1651379432 735 4ee59536e56d26f4daaa501074d2b3a7 ""
   "c:/texlive/2021/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1646537140 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1651378903 4265 0b114cde784bfa71311d8b8a884cade5 "pdflatex"
+  "main.aux" 1651379504 4385 5e98ae6f22e18a208784d4ceef51cef8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1651378896 "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" "main.pdf" "main" 1651378903
+["pdflatex"] 1651379497 "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" "main.pdf" "main" 1651379505
   "Figure/asset/1.png" 1651288908 13451 3e293234e36938005c04eeec793f1dda ""
   "Figure/asset/2.png" 1651288908 38406 7e29cc4c179ef5f48be9ded95e9eaad6 ""
   "Figure/asset/3.png" 1651288908 16883 7cf3afdd8b80aa8cf5be1ad925e51770 ""
@@ -23,7 +23,7 @@
   "Figure/asset/run apline ls -l.png" 1651288908 549143 781a8238fa0bfe88a5e44d88dc3259d9 ""
   "Figure/asset/wsl from microsoft store.png" 1651292692 386999 4d17191cb3242759e7229c76a4f45a2e ""
   "Figure/ifitera-header.png" 1651288908 105262 7fe1bcaf31c1fe943ce3e952b4c15ef1 ""
-  "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" 1651378776 15760 251cd72ec3ec52f97742ade24b598ea4 ""
+  "c:/Users/mqoma/Documents/GitHub/HandsOn_3_120140116_SO/main.tex" 1651379486 15818 06a6de91211e65ba91b86bdc1efbed1b ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1646536211 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1646537584 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1646537584 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
@@ -254,10 +254,10 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646547303 4448422 1ce8db434ffa4259b75148f2b12051ea ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646547474 2797720 b3cbb3255d5e44e8f82ce01611bc050d ""
   "c:/texlive/2021/texmf.cnf" 1646547270 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1651378903 4265 0b114cde784bfa71311d8b8a884cade5 "pdflatex"
-  "main.bbl" 1651378896 877 628a2a8c68e066122d1514411e0b8455 "bibtex main"
-  "main.out" 1651378903 2740 b6559e76adb692444b3876f861529927 "pdflatex"
-  "main.tex" 1651378776 15760 251cd72ec3ec52f97742ade24b598ea4 ""
+  "main.aux" 1651379504 4385 5e98ae6f22e18a208784d4ceef51cef8 "pdflatex"
+  "main.bbl" 1651379497 1356 1719180d5d45f4a69c52ad5edcbfdc66 "bibtex main"
+  "main.out" 1651379504 2740 b6559e76adb692444b3876f861529927 "pdflatex"
+  "main.tex" 1651379486 15818 06a6de91211e65ba91b86bdc1efbed1b ""
   (generated)
   "main.aux"
   "main.log"
